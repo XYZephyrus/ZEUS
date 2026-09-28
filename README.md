@@ -1,3 +1,7 @@
+<div align= center>
+<img src="assets/20260929_014153.png" alt="Logo" width="140" height="140">
+</div>
+
 # About
 ZEUS (Zephyrus UserScript) is a repository containing my collection of userscripts, primarily ones that I use myself. Most of them are vibecoded and tailored specifically for better reachability and usability on mobile devices, particularly in [Via Browser.](https://play.google.com/store/apps/details?id=mark.via.gp)
 
