@@ -24,6 +24,9 @@ A customizable script to bring the famous [DarkReader](https://darkreader.org) b
 ##### [Disable Google AMP](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-disable-amp.user.js)
 Disables Google AMP pages and redirects them to their original URLs.
 
+##### [DuckDuckGo Header Lock](script-ddg-header-lock.user.js)
+A simple script to make DuckDuckGo's header stays visible.
+
 ##### [DuoHacker](https://raw.githubusercontent.com/XYZephyrus/ZEUS/refs/heads/main/script-duolingo-duohacker.user.js) / [Original](https://greasyfork.org/en/scripts/561041-duolingo-duohacker) [Source](https://github.com/DuoHacker/DuoHacker)
 A Duolingo cheat menu.
 
