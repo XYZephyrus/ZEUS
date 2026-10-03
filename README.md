@@ -52,7 +52,7 @@ Injects SF to any sites. (Might break icons)
 Applies Danbooru's color scheme to Gelbooru for a more familiar appearance.
 
 ##### [GitHub Header Lock](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-github-header-lock.user.js)
-A simple script to make DuckDuckGo's header stays visible.
+A simple script to make GitHub's header stays visible.
 <!--Locks the header of GitHub's mobile layout.-->
 
 ##### [GitHub Annoyance](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-github-annoyance.user.js)
