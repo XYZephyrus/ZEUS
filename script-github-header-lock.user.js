@@ -2,7 +2,7 @@
 // @name            GitHub Header Lock
 // @namespace       github.com/XYZephyrus/ZEUS
 // @version         v1
-// @description     TBA
+// @description     Locks the header of Github
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://*.github.com/*
