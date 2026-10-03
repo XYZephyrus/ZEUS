@@ -26,7 +26,7 @@ Disables Google AMP pages and redirects them to their original URLs.
 
 ##### [DuckDuckGo Header Lock](script-ddg-header-lock.user.js)
 A simple script to make DuckDuckGo's header stays visible.
-
+ 
 ##### [DuoHacker](https://raw.githubusercontent.com/XYZephyrus/ZEUS/refs/heads/main/script-duolingo-duohacker.user.js) / [Original](https://greasyfork.org/en/scripts/561041-duolingo-duohacker) [Source](https://github.com/DuoHacker/DuoHacker)
 A Duolingo cheat menu.
 
@@ -52,7 +52,8 @@ Injects SF to any sites. (Might break icons)
 Applies Danbooru's color scheme to Gelbooru for a more familiar appearance.
 
 ##### [GitHub Header Lock](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-github-header-lock.user.js)
-Locks the header of GitHub's mobile layout.
+A simple script to make DuckDuckGo's header stays visible.
+<!--Locks the header of GitHub's mobile layout.-->
 
 ##### [GitHub Annoyance](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-github-annoyance.user.js)
 Removes the Sponsor button on all github repository pages that could exceeds the viewport in a certain mobile device/browser.
