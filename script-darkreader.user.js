@@ -2,7 +2,7 @@
 // @name            DarkReader
 // @namespace       DR
 // @version         v1.01
-// @description     NA
+// @description     DarkReader mobile
 // @author          Zephyrus
 // @run-at          document-end
 // @match           
