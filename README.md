@@ -82,6 +82,9 @@ A script to turns [that site's](https://nhentai.net) appearance to AMOLED dark m
 ##### [NH Folding Tags](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-nhentai-folding-tags.user.js) ![tag](https://img.shields.io/badge/NSFW-FA9BCF)
 A script to put the tags on a gallery inside a folding container so that we don't have to scroll that much when viewing a gallery with dozen of tags.
 
+##### [Pinterest Sponsor Blocker](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-pinterest-sponsor-block.user.js)
+A simple script to block sponsored pins in Pinterest.
+
 ##### [Pull to Refresh](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-pull-to-refresh.user.js)
 Gives ability to do a pull to refresh gesture in Via which doesn't support it natively.
 
