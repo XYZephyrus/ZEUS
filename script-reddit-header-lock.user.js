@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name            Reddit Header Lock
 // @namespace       github.com/XYZephyrus/ZEUS
-// @version         v1
-// @description     Locks Reddit's header so it won't disappear after scrolling down
+// @version         v1.1
+// @description     Locks Reddit's header so it won't disappear after scrolling down + crap removal
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://*.reddit.com/*
@@ -51,6 +51,11 @@
 
 /* AI */
 #answers-nav-button {
+ display: none !important;
+ }
+
+ /* Mobile app promo */
+#xpromo-bottom-sheet {
  display: none !important;
  }
     
