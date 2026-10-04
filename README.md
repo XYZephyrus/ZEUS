@@ -88,6 +88,9 @@ A simple script to block sponsored pins in Pinterest.
 ##### [Pull to Refresh](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-pull-to-refresh.user.js)
 Gives ability to do a pull to refresh gesture in Via which doesn't support it natively.
 
+##### [Reddit AdBlocker](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-reddit-adblocker.user.js) / [Original Source](https://greasyfork.org/en/scripts/509503-reddit-adblocker-remove-ads-from-reddit)
+Reddit Ad Blocker is a userscript that automatically removes various types of advertisements from Reddit, providing a cleaner browsing experience.
+
 ##### [Reddit Header Lock](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-reddit-header-lock.user.js)
 A simple script to make Reddit's header stays visible.
 <!--Locks the header of Reddit's mobile layout.-->
