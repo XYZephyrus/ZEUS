@@ -12,6 +12,10 @@ Some scripts in this repository are not my own work. Full credit goes to their r
 ---
 
 ## Scripts (Click to Install)
+
+##### [Booru Tag Gallery Reachability Tweak](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-booru-tag-gallery.user.js)
+Customizes [the site](https://booru-tag-gallery.vercel.app)'s interface with a bottom-positioned search bar, translucent popup modal, and a cleaner overall UI.
+
 ##### [Civitai Top to Bottom](https://raw.githubusercontent.com/XYZephyrus/ZEUS/refs/heads/main/script-civitai-top-to-bottom.user.js)
 A script to make navigating around [Civitai](https://civitai.red) easier on mobile devices
 
