@@ -116,8 +116,8 @@ background-color:var(--body-background-color, #181818) !important;
  padding-bottom: -100px !important;
  }
 
-/* nano banana btn + caption lib popup drawer + prompt warning + plus btn + discord btn + changelog btn delete*/
-.object-contain, .pt-8, .bottom-2, .p-6,  .text-28, .text-24 {
+/* nano banana btn + caption lib popup drawer + prompt warning delete*/
+.object-contain, .pt-8, .bottom-2 {
  display: none !important;
  }
 
