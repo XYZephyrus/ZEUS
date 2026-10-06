@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
-// @namespace    TensorArt
-// @version      v2.02 Ultimate
+// @namespace    https://github.com/XYZephyrus/ZEUS
+// @version      v2.03 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
@@ -28,7 +28,7 @@
  }
 
 /* Add to library btn whitening */
-.bg-mask-default, .bg-text-primary, .cursor-not-allowed {
+.n-image-preview-toolbar, .px-24, .bg-mask-default, .bg-text-primary, .cursor-not-allowed {
  color: white !important;
  background-color: rgba(0,0,0,0) !important;
  border: 1px solid rgba(255,255,255,0.1) !important;
@@ -36,9 +36,9 @@
 
 /* Remix bar transparent */
 .bottom-0 {
- border: none;
+ border: none !important;
  border-top: 1px solid rgba(255,255,255,0.1) !important;
-color: black;
+ color: black;
  background-color: rgba(0,0,0,0) !important;
  }
 
@@ -116,8 +116,8 @@ background-color:var(--body-background-color, #181818) !important;
  padding-bottom: -100px !important;
  }
 
-/* Download + zoom in preview + nano banana btn delete*/
-.n-image-preview-toolbar, .px-24, .object-contain {
+/* nano banana btn + caption lib popup drawer + prompt warning delete*/
+.object-contain, .pt-8, .bottom-2 {
  display: none !important;
  }
 
@@ -147,11 +147,6 @@ background-color:var(--body-background-color, #181818) !important;
  left: 2px !important;
  right: auto !important;
  background-color: #000000 !important;
- }
-
-/* Prompt warning */
-.bottom-2 {
- display: none !important;
  }
 
     `);
