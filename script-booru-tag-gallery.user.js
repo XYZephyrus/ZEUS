@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Booru Tag Gallery
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v1
+// @version      v1.1
 // @description  Booru Tag Gallery Script
 // @author       Zephyrus
 // @run-at       document-start
@@ -13,23 +13,23 @@
     'use strict';
     GM_addStyle(`
 
-/* html, body * {
- background-color: #000000 !important;
- } */
-
 /* Search bar */
 #search-input {
  position: fixed !important;
  bottom: 0 !important;
- max-width: 35vw !important;
+ max-width: 150px !important;
  margin-bottom: 10px !important;
- left: 125px !important;
+ left: 0 !important; 
+ right: 0 !important; 
+ margin-left: auto !important;
+ margin-right: auto !important;
  z-index: 9998 !important;
  white-space: nowrap !important;
  overflow: visible !important;
  background-color: rgba(30,38,49,0.5) !important;
  padding: 6px !important;
  padding-right: 20px !important;
+ }
  }
 
 /* Search clear */
