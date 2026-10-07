@@ -30,7 +30,6 @@
  padding: 6px !important;
  padding-right: 20px !important;
  }
- }
 
 /* Search clear */
 .lucide-x {
