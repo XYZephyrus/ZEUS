@@ -13,6 +13,9 @@ Some scripts in this repository are not my own work. Full credit goes to their r
 
 ## Scripts (Click to Install)
 
+##### [Anti-Cookies Consent](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-anticookie.user.js) / [Original Source](https://greasyfork.org/en/scripts/432050-anti-cookies-consent)
+Remove cookie consent messages from websites.
+
 ##### [Booru Tag Gallery Reachability Tweak](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-booru-tag-gallery.user.js)
 Customizes [the site](https://booru-tag-gallery.vercel.app)'s interface with a bottom-positioned search bar, translucent popup modal, and a cleaner overall UI.
 
