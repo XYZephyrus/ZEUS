@@ -20,7 +20,7 @@ Remove cookie consent messages from websites.
 Customizes [the site](https://booru-tag-gallery.vercel.app)'s interface with a bottom-positioned search bar, translucent popup modal, and a cleaner overall UI.
 
 ##### [Civitai Top to Bottom](https://raw.githubusercontent.com/XYZephyrus/ZEUS/refs/heads/main/script-civitai-top-to-bottom.user.js)
-A script to make navigating around [Civitai](https://civitai.red) easier on mobile devices
+A script to make navigating around [Civitai](https://civitai.red) easier on mobile devices. (Incompatible with newer Civitai layout, breaks generator and model switching panel!)
 
 ##### [Danbooru Top to Bottom](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-danbooru-top-to-bottom.user.js)
 A script to make navigating around [Danbooru](https://danbooru.donmai.us) easier on mobile devices
