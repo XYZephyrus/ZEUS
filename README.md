@@ -108,6 +108,9 @@ Removes the annoying pop-up when viewing NSFW post in the mobile web version of 
 ##### [Ultimate TensorArt Script](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js)
 [TensorArt](https://tensor.art) UI overhaul for excellent mobile reachability + AMOLED dark mode.
 
+##### [Universal Favicon Changer](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-universal-favicon-changer.user.js)
+A simple script to change the favicon of any specific website.
+
 ##### [Via Image Downloader](https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-via-image-downloader.user.js)
 Yet another script to download all loaded images on a page.
 
