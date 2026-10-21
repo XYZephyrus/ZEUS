@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.03 Ultimate
+// @version      v2.04 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
@@ -18,7 +18,7 @@
 .n-tabs-nav--line-type {
  padding-left: 120px !important;
  position: fixed !important;
- bottom: 0 !important;
+ bottom: -1px !important;
  left: 0 !important;
  right: 0 !important;
  top: auto !important;
@@ -31,13 +31,13 @@
 .n-image-preview-toolbar, .px-24, .bg-mask-default, .bg-text-primary, .cursor-not-allowed {
  color: white !important;
  background-color: rgba(0,0,0,0) !important;
- border: 1px solid rgba(255,255,255,0.1) !important;
+ border: 1px solid rgba(255,255,255,0.2) !important; /* Actually black - inverted by DarkReader */
  }
 
 /* Remix bar transparent */
 .bottom-0 {
  border: none !important;
- border-top: 1px solid rgba(255,255,255,0.1) !important;
+ border-top: 1px solid rgba(255,255,255,0.1) !important; /* Actually black - inverted by DarkReader */
  color: black;
  background-color: rgba(0,0,0,0) !important;
  }
@@ -47,8 +47,9 @@
  position: fixed !important;
  border-radius: 0 !important;
  width: 100vw !important;
+ height: 33px !important; 
  max-width: none;
- bottom: 40px !important;
+ bottom: 42px !important;
  left: 0 !important;
  right: 0 !important;
  z-index: 20 !important;
@@ -58,6 +59,7 @@
 .h-28 {
  position: fixed !important;
  border-radius: 0 !important;
+ height: 33px !important; 
  width: 100vw !important;
  max-width: none;
  bottom: 0px !important;
@@ -68,8 +70,9 @@
 
 /* Create's Popout bottoming */
 .n-popover__content {
+ background-color: #000000 !important;
  position: fixed !important;
- top: 321px !important;
+ top: 316px !important;
  left: 50px !important;
  right: 0 !important;
  z-index: 20 !important;
@@ -102,7 +105,7 @@ background-color:var(--body-background-color, #181818) !important;
 /* Close button bottoming */
 .b {
  position: fixed !important;
- bottom: 6px !important;
+ bottom: 5px !important;
  right: 16px !important;
  top: auto !important;
  left: auto !important;
@@ -111,7 +114,7 @@ background-color:var(--body-background-color, #181818) !important;
 
 /* Prompt panels down */
 .sd-generate-panel {
- background-color: #000000;
+ background-color: rgba(0,0,0,0) !important;
  padding-top: 100px !important;
  padding-bottom: -100px !important;
  }
