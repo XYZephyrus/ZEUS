@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Booru Tag Gallery
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v1.1
+// @version      v1.2
 // @description  Booru Tag Gallery Script
 // @author       Zephyrus
 // @run-at       document-start
 // @match        https://booru-tag-gallery.vercel.app/*
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-booru-tag-gallery.user.js
+// @updateURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-booru-tag-gallery.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
