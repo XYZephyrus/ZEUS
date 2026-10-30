@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Danbooru Top to Bottom
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v1.2
+// @version      v1.21
 // @description  A script to bring the header down.
 // @author       Zephyrus
 // @run-at       document-start
 // @match        *://danbooru.donmai.us/*
+// @downloadURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-danbooru-top-to-bottom.user.js
+// @updateURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-danbooru-top-to-bottom.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
