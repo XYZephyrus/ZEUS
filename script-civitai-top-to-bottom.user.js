@@ -6,6 +6,8 @@
 // @author       Zephyrus
 // @run-at       document-start
 // @match        *://civitai.*/*
+// @downloadURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-civitai-top-to-bottom.user.js
+// @updateURL. https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-civitai-top-to-bottom.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
