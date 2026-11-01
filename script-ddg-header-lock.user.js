@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name            DDG Header Lock
 // @namespace       github.com/XYZephyrus/ZEUS
-// @version         v1
+// @version         v1.01
 // @description     A simple script to make DuckDuckGo's header stays visible
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://*.duckduckgo.com/*
+// @downloadURL     https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-ddg-header-lock.user.js
+// @updateURL       https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-ddg-header-lock.user.js
 // @grant           GM_addStyle
 // ==/UserScript==
 
