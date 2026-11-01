@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Booru Tag Gallery
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v1.3
+// @version      v1.4
 // @description  Booru Tag Gallery Script
 // @author       Zephyrus
 // @run-at       document-start
@@ -78,4 +78,57 @@
  }
     
     `);
+
+/* Shift copy tag btn in popup */
+function NUKE() { 
+document.querySelectorAll(".modal-shell").forEach(shell => {
+            const walker = document.createTreeWalker(
+                shell,
+                NodeFilter.SHOW_TEXT
+            );
+
+            let node;
+
+            while (node = walker.nextNode()) {
+                if (!node.textContent.includes("Copy tag")) continue;
+
+                let el = node.parentElement;
+
+                while (
+                    el.parentElement &&
+                    el.parentElement !== shell &&
+                    el.parentElement.textContent.trim() ===
+                        el.textContent.trim()
+                ) {
+                    el = el.parentElement;
+                }
+                el.style.setProperty("display", "flex", "important");
+
+el.style.setProperty("align-items", "center", "important");
+                el.style.setProperty("position", "relative", "important");
+
+el.style.setProperty("left", "35px", "important");
+
+el.style.setProperty("top", "0px", "important");
+
+el.style.setProperty("margin-left", "-40px", "important");
+
+el.style.setProperty("transform", "none", "important");
+                
+/*el.style.setProperty("background", "red", "important");*/
+
+/*el.style.setProperty("outline", "5px solid lime", "important");*/
+
+                document.documentElement.dataset.copyTagNuke = "DETONATED";
+            }
+        });
+    }
+
+    NUKE();
+
+    new MutationObserver(NUKE).observe(document.documentElement, {
+        childList: true,
+        subtree: true,
+        characterData: true
+    });
 })();
