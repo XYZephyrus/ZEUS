@@ -75,12 +75,6 @@
 .gap-x-4, #search-suggestions, .lucide-search, .w-5 {
  display: none !important;
  }
-
-/* Attempt to shift the copy tag btn in popup header (failed) */
-.lucide-copy * {
- position: fixed !important; 
- right: 50px !important;
- }
     
     `);
 })();
