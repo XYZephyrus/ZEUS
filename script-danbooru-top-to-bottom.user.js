@@ -17,16 +17,16 @@
 
     // Move #top to the bottom of the screen
     GM_addStyle(`
-         #top {
-            max-height: 33% !important;
-            position: fixed !important;
-            bottom: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            top: auto !important;
-            z-index: 9999 !important;
-            background-color: var(--body-background-color, #0a0a0a) !important;
-        }
+#top {
+ max-height: 33% !important;
+ position: fixed !important;
+ bottom: 0 !important;
+ left: 0 !important;
+ right: 0 !important;
+ top: auto !important;
+ z-index: 9999 !important;
+ background-color: var(--body-background-color, #0a0a0a) !important;
+ }
 
 /* Search suggestions up */
 #ui-id-1 {
