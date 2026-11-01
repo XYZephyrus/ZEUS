@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Danbooru Top to Bottom
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v1.21
+// @version      v1.31
 // @description  A script to bring the header down.
 // @author       Zephyrus
 // @run-at       document-start
@@ -55,6 +55,11 @@ input[type="submit"] {
  right: auto !important;
  }
 
+/* Declutter */
+#nav-pools, #nav-posts, #nav-comments, #nav-notes, #nav-pools, #nav-forum, #subnav-new, #subnav-changes, #subnav-edit, #subnav-history, #subnav-help, #nav-posts, .other-names-column, .updated-column, .status-column {
+ display: none !important;
+ }
+ 
         /* Prevent the bottom of the page from being hidden behind the bar */
         body {
             padding-bottom: 60px !important;
