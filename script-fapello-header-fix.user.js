@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name            Fapello Header Fix
-// @namespace       Fix Fapello buggy header
-// @version         v1
-// @description     NA
+// @namespace       https://github.com/XYZephyrus/ZEUS
+// @version         v1.01
+// @description     Fix Fapello buggy header
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://fapello.*/*
+// @downloadURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-fapello-header-fix.user.js
+// @updateURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-fapello-header-fix.user.js
 // @grant           GM_addStyle
 // ==/UserScript==
 
