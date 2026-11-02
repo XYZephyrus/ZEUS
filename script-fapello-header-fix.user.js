@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Fapello Header Fix
-// @namespace       Fap
+// @namespace       Fix Fapello buggy header
 // @version         v1
 // @description     NA
 // @author          Zephyrus
