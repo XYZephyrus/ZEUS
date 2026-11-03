@@ -3,7 +3,7 @@
 // @namespace    https://github.com/XYZephyrus/ZEUS
 // @version      1.0
 // @description  Forces all clicked links to open in a new tab instead of redirecting the current page.
-// @author       Gemini
+// @author       Zephyrus & Gemini
 // @match        *://www.google.com/*
 // @grant        GM_openInTab
 // @run-at       document-start
