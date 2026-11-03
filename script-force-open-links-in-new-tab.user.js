@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Force Open Links in New Tab
-// @namespace    http://tampermonkey.net
+// @namespace    https://github.com/XYZephyrus/ZEUS
 // @version      1.0
 // @description  Forces all clicked links to open in a new tab instead of redirecting the current page.
 // @author       Gemini
