@@ -56,7 +56,7 @@
  }
 
 /* Create btn bottoming */
-.h-28 {
+.h-28.cursor-pointer {
  position: fixed !important;
  border-radius: 0 !important;
  height: 33px !important; 
