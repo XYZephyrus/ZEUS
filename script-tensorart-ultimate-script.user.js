@@ -77,12 +77,7 @@
  right: 0 !important;
  z-index: 20 !important;
  }
-
-/* Lib drawer transparent */
-/* .n-drawer-body-content-wrapper *, .library-mobile-drawer *, .n-drawer-content-wrapper *, .n-drawer-content *, .n-drawer-body *, .n-scrollbar-container *, .n-scrollbar-content *, .p-0 * {
- background-color: rgba(0,0,0,0) !important;
- } */
-          
+         
 /* Credit Counter bottoming */
 .bg-brand-container {
  position: fixed !important;
