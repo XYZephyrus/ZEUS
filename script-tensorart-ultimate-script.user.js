@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.04 Ultimate
+// @version      v2.05 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
 // @match        *://tensor.art/*
+// @downloadURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js
+// @updateURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
