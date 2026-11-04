@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Force Open Links in New Tab
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      1.0
+// @version      v1.01
 // @description  Forces all clicked links to open in a new tab instead of redirecting the current page.
 // @author       Zephyrus & Gemini
 // @match        *://www.google.com/*
+// @downloadURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-force-open-links-in-new-tab.user.js
+// @updateURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-force-open-links-in-new-tab.user.js
 // @grant        GM_openInTab
 // @run-at       document-start
 // ==/UserScript==
