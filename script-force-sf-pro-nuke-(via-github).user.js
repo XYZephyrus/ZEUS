@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Force SF Pro Nuke (via Github)
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      1.2
+// @version      v1.21
 // @author        Zephyrus
 // @match        *://*/*
+// @downloadURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-force-sf-pro-nuke-(via-github).user.js
+// @updateURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-force-sf-pro-nuke-(via-github).user.js
 // @run-at       document-start
 // ==/UserScript==
 
