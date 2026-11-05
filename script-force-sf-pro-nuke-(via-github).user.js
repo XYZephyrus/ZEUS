@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Force SF Pro Nuke (via Github)
-// @namespace    via
+// @namespace    https://github.com/XYZephyrus/ZEUS
 // @version      1.2
 // @author        Zephyrus
 // @match        *://*/*
