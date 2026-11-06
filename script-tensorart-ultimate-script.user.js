@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.06 Ultimate
+// @version      v2.07 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
@@ -155,4 +155,12 @@ background-color:var(--body-background-color, #181818) !important;
  }
 
     `);
+    
+/* Generate + create + close + remix btn vibration - 2.07 */
+document.addEventListener('click', (event) => {
+    if (event.target.closest('.c-text-anti, .h-28, .n-popover__content, .b, .bottom-0')) {
+        navigator.vibrate(1);
+    }
+}, true);
+    
 })();
