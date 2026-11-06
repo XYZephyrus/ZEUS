@@ -99,6 +99,11 @@
 background-color:var(--body-background-color, #181818) !important;
 }
 
+/* Small label - style */
+.rd-lb-0 {
+ background-color: #1a1a1a !important;
+ }
+
 /* Blackout */
 .w-full, .library-mobile-drawer, .p-y-8, body, .z-40, .scrollbar-normal, .p-12, .sd-editor-card, .b-solid {
  background-color: #000000 !important;
