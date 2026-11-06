@@ -30,14 +30,14 @@
  }
 
 /* Add to library btn whitening */
-.n-image-preview-toolbar, .px-24, .bg-mask-default, .bg-text-primary, .cursor-not-allowed {
+.n-image-preview-toolbar, .px-24, .bg-text-primary, .flex-c.bg-mask-default {
  color: white !important;
  background-color: rgba(0,0,0,0) !important;
  border: 1px solid rgba(255,255,255,0.2) !important; /* Actually black - inverted by DarkReader */
  }
 
 /* Remix bar transparent */
-.bottom-0 {
+.absolute.bottom-0.left-0.right-0.z-10 {
  border: none !important;
  border-top: 1px solid rgba(255,255,255,0.1) !important; /* Actually black - inverted by DarkReader */
  color: black;
@@ -45,7 +45,7 @@
  }
 
 /* Generate Button stretch + bottoming */
-.c-text-anti {
+.c-text-anti.text-nowrap {
  position: fixed !important;
  border-radius: 0 !important;
  width: 100vw !important;
@@ -71,7 +71,7 @@
  }
 
 /* Create's Popout bottoming */
-.n-popover__content {
+.border-0.border-b {
  background-color: #000000 !important;
  position: fixed !important;
  top: 316px !important;
