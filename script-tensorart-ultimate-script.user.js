@@ -36,6 +36,11 @@
  border: 1px solid rgba(255,255,255,0.2) !important; /* Actually black - inverted by DarkReader */
  }
 
+ /* Result list side padding remove - 2.06 */
+.scrollbar-normal {
+ padding: 0 !important;
+ }
+
 /* Remix bar transparent */
 .absolute.bottom-0.left-0.right-0.z-10 {
  border: none !important;
