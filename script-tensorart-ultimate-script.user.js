@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.07 Ultimate
+// @version      v2.08 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
@@ -119,6 +119,15 @@ background-color:var(--body-background-color, #181818) !important;
  background-color: rgba(0,0,0,0) !important;
  padding-top: 100px !important;
  padding-bottom: -100px !important;
+ }
+
+ /* Seed Section - 2.08 */
+.vi-form-item {
+ position: fixed !important;
+ z-index: -1 !important;
+ width: 90vw !important;
+ top: 45px !important;
+ bottom: auto !important;
  }
 
 /* nano banana btn + caption lib popup drawer + prompt warning delete*/
