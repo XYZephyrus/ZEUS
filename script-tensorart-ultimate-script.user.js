@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.09 Ultimate
+// @version      v2.10 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
@@ -87,6 +87,13 @@
  border: 1px solid rgba(255,255,255,0.2) !important;
  border-radius: 10px !important;
  z-index: 20 !important;
+ }
+
+/* Lib drawer transparent - 2.10 */
+ .n-drawer-container * {
+ background-color: rgba(0,0,0,0.15) !important;
+ border-radius: 10px !important;
+ bottom: -5px !important;
  }
          
 /* Credit Counter bottoming */
