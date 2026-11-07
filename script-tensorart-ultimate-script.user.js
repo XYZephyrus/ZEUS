@@ -1,21 +1,21 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.10 Ultimate
+// @version      v2.10.1 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
 // @match        *://tensor.art/*
-// @downloadURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js
-// @updateURL   https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js
+// @updateURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-tensorart-ultimate-script.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
-
 
 (function() {
     'use strict';
     GM_addStyle(`
 
+/* Overall & Front UI */
 /* Workflow bar down */
 .n-tabs-nav--line-type {
  padding-left: 120px !important;
@@ -29,7 +29,7 @@
  justify-content: center !important;
  }
 
-/* Add to library btn whitening */
+/* Add to library btn whitening - refactor selector - 2.09 style glass*/
 .n-image-preview-toolbar, .px-24, .bg-text-primary, .flex-c.bg-mask-default {
  color: white !important;
  background-color: rgba(0,0,0,0.15) !important;
@@ -37,20 +37,20 @@
  border: 1px solid rgba(255,255,255,0.2) !important;
  }
 
- /* Result list side padding remove - 2.06 */
+/* Result list side padding remove - 2.06 */
 .scrollbar-normal {
  padding: 0 !important;
  }
 
-/* Remix bar transparent */
+/* Remix bar transparent - refactor selector */
 .absolute.bottom-0.left-0.right-0.z-10 {
  border: none !important;
- border-top: 1px solid rgba(255,255,255,0.1) !important; /* Actually black - inverted by DarkReader */
+ border-top: 1px solid rgba(255,255,255,0.1) !important;
  color: black;
  background-color: rgba(0,0,0,0) !important;
  }
 
-/* Generate Button stretch + bottoming */
+/* Generate Button stretch + bottoming (refactor selector) */
 .c-text-anti.text-nowrap {
  position: fixed !important;
  border-radius: 0 !important;
@@ -63,7 +63,7 @@
  z-index: 20 !important;
  }
 
-/* Create btn bottoming */
+/* Create btn bottoming - refactor selector */
 .h-28.cursor-pointer {
  position: fixed !important;
  border-radius: 0 !important;
@@ -76,7 +76,7 @@
  z-index: 20 !important;
  }
 
-/* Create's Popout bottoming */
+/* Create's Popout bottoming - refactor selector - 2.09 style (radius+position+glass) */
 .border-0.border-b {
  background-color: rgba(0,0,0,0.15) !important;
  backdrop-filter: blur(10px);
@@ -89,13 +89,13 @@
  z-index: 20 !important;
  }
 
-/* Lib drawer transparent - 2.10 */
- .n-drawer-container * {
+/* Lib drawer transparent - 2.10 style */
+.n-drawer-container * {
  background-color: rgba(0,0,0,0.15) !important;
  border-radius: 10px !important;
  bottom: -5px !important;
  }
-         
+          
 /* Credit Counter bottoming */
 .bg-brand-container {
  position: fixed !important;
@@ -116,7 +116,7 @@ background-color:var(--body-background-color, #181818) !important;
  }
 
 /* Blackout */
-.w-full, .library-mobile-drawer, .p-y-8, body, .z-40, .scrollbar-normal, .p-12, .sd-editor-card, .b-solid {
+.w-full, .p-y-8, body, .z-40, .scrollbar-normal, .p-12, .sd-editor-card, .b-solid {
  background-color: #000000 !important;
  }
 
@@ -132,17 +132,17 @@ background-color:var(--body-background-color, #181818) !important;
 
 /* Prompt panels down */
 .sd-generate-panel {
- background-color: rgba(0,0,0,0) !important;
+ background-color: #000000 !important;
  padding-top: 100px !important;
- padding-bottom: -100px !important;
+ z-index: 10 !important;
  }
 
- /* Workflow panel bottom padding - style */
+/* Workflow panel bottom padding - style */
 .flex-1.scroll-bar-base {
  padding-bottom: 10px !important;
  }
 
- /* Seed Section - 2.08 */
+/* Seed Section - 2.08*/
 .vi-form-item {
  position: fixed !important;
  z-index: -1 !important;
@@ -177,6 +177,8 @@ background-color:var(--body-background-color, #181818) !important;
 .n-tabs-nav--bar-type {
  position: fixed !important;
  z-index: 9999 !important;
+ padding-left: 10px !important;
+ padding-right: 500px !important;
  top: -4px !important;
  bottom: auto !important;
  left: 2px !important;
@@ -185,12 +187,12 @@ background-color:var(--body-background-color, #181818) !important;
  }
 
     `);
-    
+
 /* Generate + create + close + remix btn vibration - 2.07 */
 document.addEventListener('click', (event) => {
     if (event.target.closest('.c-text-anti, .h-28, .n-popover__content, .b, .bottom-0')) {
         navigator.vibrate(1);
     }
 }, true);
-    
+
 })();
