@@ -126,6 +126,11 @@ background-color:var(--body-background-color, #181818) !important;
  padding-bottom: -100px !important;
  }
 
+ /* Workflow panel bottom padding - style */
+.flex-1.scroll-bar-base {
+ padding-bottom: 10px !important;
+ }
+
  /* Seed Section - 2.08 */
 .vi-form-item {
  position: fixed !important;
