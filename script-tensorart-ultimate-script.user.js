@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TensorArt Ultimate Script
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      v2.08 Ultimate
+// @version      v2.09 Ultimate
 // @description  Superb reachability + AMOLED dark mode
 // @author       Zephyrus
 // @run-at       document-start
@@ -32,8 +32,9 @@
 /* Add to library btn whitening */
 .n-image-preview-toolbar, .px-24, .bg-text-primary, .flex-c.bg-mask-default {
  color: white !important;
- background-color: rgba(0,0,0,0) !important;
- border: 1px solid rgba(255,255,255,0.2) !important; /* Actually black - inverted by DarkReader */
+ background-color: rgba(0,0,0,0.15) !important;
+ backdrop-filter: blur(3px);
+ border: 1px solid rgba(255,255,255,0.2) !important;
  }
 
  /* Result list side padding remove - 2.06 */
@@ -77,11 +78,14 @@
 
 /* Create's Popout bottoming */
 .border-0.border-b {
- background-color: #000000 !important;
+ background-color: rgba(0,0,0,0.15) !important;
+ backdrop-filter: blur(10px);
  position: fixed !important;
- top: 316px !important;
+ top: 356px !important;
  left: 50px !important;
  right: 0 !important;
+ border: 1px solid rgba(255,255,255,0.2) !important;
+ border-radius: 10px !important;
  z-index: 20 !important;
  }
          
