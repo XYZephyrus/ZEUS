@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Gelbooru to Danbooru color
 // @namespace    Gelbooru
-// @version      v1.2
+// @version      v1.3
 // @description  TURN ON DARK MODE
 // @author       Zephyrus
 // @run-at       document-start
 // @match        *://gelbooru.*/*
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-gelbooru-to-danbooru-color.user.js
+// @update URL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-gelbooru-to-danbooru-color.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
