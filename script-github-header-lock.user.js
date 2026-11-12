@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            GitHub Header Lock
 // @namespace       github.com/XYZephyrus/ZEUS
-// @version         v1.1
+// @version         v1.1.1
 // @description     Locks the header of Github
 // @author          Zephyrus
 // @run-at          document-start
@@ -30,7 +30,7 @@ body {
 
 /* Side menu */
 .p-2 {
- padding-top: 30px !important;
+ padding-top: 60px !important;
  } 
     
     `);
