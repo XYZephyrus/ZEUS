@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name            GitHub Header Lock
 // @namespace       github.com/XYZephyrus/ZEUS
-// @version         v1
+// @version         v1.1
 // @description     Locks the header of Github
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://*.github.com/*
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-github-header-lock.user.js
+// @updateURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-github-header-lock.user.js
 // @grant           GM_addStyle
 // ==/UserScript==
 
