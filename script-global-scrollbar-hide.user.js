@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Global Scrollbar Hide
 // @namespace    https://github.com/XYZephyrus/ZEUS
-// @version      1.0
+// @version      v1.1
 // @description  Hides the ugly WebView scrollbar completely
 // @author       Zephyrus + Gemini
 // @match        *://*/*
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-global-scrollbar-hide.user.js
+// @updateURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-global-scrollbar-hide.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
