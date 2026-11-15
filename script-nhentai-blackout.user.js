@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name            Nhentai Blackout
 // @namespace       NH Blackout
-// @version         v1 - A side
+// @version         v1.1 - A side
 // @description     We love nHentai
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://nhentai.*/*
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-nhentai-blackout.user.js
+// @updateURL https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-nhentai-blackout.user.js
 // @grant           GM_addStyle
 // ==/UserScript==
 
