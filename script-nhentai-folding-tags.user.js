@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name            Nhentai Folding Tags
 // @namespace       NH Folding Tags
-// @version         v1 - B Side
+// @version         v1.1 - B Side
 // @description     We love nHentai
 // @author          Zephyrus
 // @run-at          document-start
 // @match           *://nhentai.*/*
+// @downloadURL  https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-nhentai-folding-tags.user.js
+// @updateURL    https://github.com/XYZephyrus/ZEUS/raw/refs/heads/main/script-nhentai-folding-tags.user.js
 // @grant           GM_addStyle
 // ==/UserScript==
 
